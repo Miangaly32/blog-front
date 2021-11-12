@@ -40,7 +40,7 @@ function App() {
             })
     }, [])
 
-    let toShow = <Box sx={{ display: 'flex',height:"25vh", justifyContent:"center", alignItems:'center' }}>
+    let toShow = <Box sx={{ display: 'flex',height:"100vh", justifyContent:"center", alignItems:'center' }}>
         <CircularProgress />
     </Box>;
 
